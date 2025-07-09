@@ -1,0 +1,22 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubdotnetdemo
+  labels:
+    app: kubdotnetdemo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kubdotnetdemo
+  template:
+    metadata:
+      labels:
+        app: kubdotnetdemo
+    spec:
+      containers:
+        - name: kubdotnetdemo
+          image: imadettamen/kubdotnetdemo:v2
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80

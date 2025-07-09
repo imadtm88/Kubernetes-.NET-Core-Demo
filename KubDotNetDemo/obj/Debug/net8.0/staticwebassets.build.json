@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LdoBASkd6TFWgjgYPz4FxUDw1dBaP0DFMYfqDOUr1ag=",
+  "Source": "KubDotNetDemo",
+  "BasePath": "_content/KubDotNetDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
